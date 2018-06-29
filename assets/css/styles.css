@@ -1,0 +1,126 @@
+
+body{
+padding-top: 0px;	
+}
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+p, li, a, small {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Font hierarchy */
+
+h1 {
+ font-size: 3em;
+}
+
+h2 {
+ font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+p {
+  color: hsla(0, 0%, 0%, 0.8);
+}
+
+
+.navbar_barber{
+  background-color: #121619;
+
+  
+}
+.icon-bar {
+  background-color: #fff;
+}
+
+.navbar-brand img {
+  max-width: 100px;
+  margin-left:  150px;
+
+}
+
+.navbar-nav > li > a{
+  color: #fff;
+  text-shadow: none;
+  
+}
+.nav > li > a:hover {
+  background-color: initial;
+  color: hsla(0, 0%, 100%, .5);
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+.jumbotron__header{
+	margin-top: 0px;
+	background-image: url(../img/post-image.jpg);
+	background-size: cover;	
+	color: white;
+	text-align: center;
+	padding-bottom: 50px;
+	height: 400px;
+}
+.jumbotron__header h1 {
+  font-size: 5em;
+  padding: 30px;
+  text-align: center;
+}
+.info p{
+	  font-family: 'Playfair Display', serif;
+}
+.info img{
+	width: 40px;
+	border:solid 1px silver;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 10px;
+	clear: both;
+}
+.rrss{
+	clear: both;
+}
+
+.rrss span{
+	
+	color: #fff;	
+	border-radius: 25px;
+	padding: 12px;	
+	background-color: #707070;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+
+}
+.rrss p{
+	font-family: 'Roboto', serif;
+	color: #fff;
+	font-size: 1rem;
+	
+
+
+}
+hr{
+	border:solid 1px silver;
+}
+.foto{
+	border-radius: 80px;
+}
+
+.profile h2{
+	font-size: 2em;
+
+}
+.profile p{
+	color: #323333;
+
+}
+.jumbotron{
+	margin-top: 30px;
+}
